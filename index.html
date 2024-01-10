@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Profile Finder</title>
+    <link rel="stylesheet" href="index.css">
+    
+       
+      
+</head>
+<body>
+    <!-- main container -->
+    <div class="container">
+        <!-- search container -->
+        <div class="search-container">
+            <input type="text" name="" id="input" placeholder="Enter GitHub Username" class="" />
+            <!-- for button -->
+            <div id="search" onclick="getUser()">Find</div>
+        </div>
+
+       <div class="profile-card">
+        <div class="main-info">
+            <img src="github-logo.png" id="p-img">
+            <span class="name" id="name" >Name</span>
+           <span class="usr" <a href="" id="username">@username</a> </span>
+
+        </div>
+
+        <div class="bio-class">
+            <p id="bio">all about you</p>
+            <p><span id="repo">0 </span><a href="" id="rp"> Repositories</a> </p>
+        </div>
+        <div class="folow-class">
+         <div class="followers">
+            <span class="followers-count" id="followers">1</span> <a href="" id="flowers"> followers</a>
+          
+         </div>
+         <div class="following">
+            <span class="following-count" id="following">1</span>  <a href="" id="flow"> following</a>
+         </div>
+        </div>
+       </div>
+      
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
